@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">P3</string>
+    <string-array name="angka">
+        <item>-Umur-</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+    </string-array>
+</resources>
