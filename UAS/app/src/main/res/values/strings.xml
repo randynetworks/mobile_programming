@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Survey Harga Barang</string>
+    <string-array name="angka">
+        <item>-Tipe-</item>
+        <item>Berbiji</item>
+        <item>Tidak Berbiji</item>
+    </string-array>
+</resources>

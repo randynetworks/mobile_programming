@@ -1,4 +1,4 @@
-package com.krisantus.p5;
+package com.krisantus.p9;
 
 import android.app.Activity;
 import android.app.AlertDialog;
@@ -14,8 +14,6 @@ import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.Spinner;
 import android.widget.Toast;
-
-import com.google.android.material.snackbar.Snackbar;
 
 public class Input extends Activity {
 

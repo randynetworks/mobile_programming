@@ -1,16 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.krisantus.p5">
+    package="com.krisantus.p9">
+
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
-        android:label="P5"
+        android:label="P9"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.P5">
-        <activity android:name=".Success" android:exported="true"/>
-        <activity android:name=".Input" android:exported="true"/>
+        <activity
+            android:name=".Calculate"
+            android:exported="true" />
+        <activity
+            android:name=".WResmi"
+            android:exported="true" />
+        <activity
+            android:name=".Menu"
+            android:exported="true" />
+        <activity
+            android:name=".Success"
+            android:exported="true" />
+        <activity
+            android:name=".Input"
+            android:exported="true" />
         <activity
             android:name=".MainActivity"
             android:exported="true">

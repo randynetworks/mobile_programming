@@ -1,8 +1,7 @@
-package com.krisantus.p5;
+package com.krisantus.p9;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
@@ -17,7 +16,7 @@ public class MainActivity extends AppCompatActivity {
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
-                Intent i = new Intent(MainActivity.this,Input.class);
+                Intent i = new Intent(MainActivity.this,Menu.class);
                 MainActivity.this.startActivity(i);
                 MainActivity.this.finish();
             }
